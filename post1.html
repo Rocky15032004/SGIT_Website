@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SGVIT</title>
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+
+        <!-- Navigation -->
+        <nav>
+            <img src="image/logo.PNG" alt="">
+            <div class="navigation">
+                <ul>
+                    <i id="menu-close" class="fas fa-times"></i>
+                    <li><a href ="#">Home</a></li>
+                    <li><a href ="about.html">About</a></li>
+                    <li><a class="active" href ="blog.html">Blog</a></li>
+                    <li><a href ="course.html">Courses</a></li>
+                    <li><a href ="contact.html">Contact</a></li>
+                </ul>
+                <img id="menu-btn" src="image/menu.png" alt="">
+            </div>
+        </nav>
+        <section id="blog-container">
+            <div class="blogs blogpost">
+                <div class="post">
+                    <img src="image/b1.jpg" alt="">
+                    <h3>Learn Web Development in the Easiest Way</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, vero doloremque illo a nihil magnam architecto cumque. Natus, iste? Ut excepturi alias laborum optio ipsum.
+                        <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis pariatur odit necessitatibus, nemo earum autem. Itaque hic corporis numquam provident nihil autem amet quos quaerat praesentium. Doloremque ullam mollitia necessitatibus? Esse ad quis laboriosam possimus similique, quidem voluptas, commodi, ipsum sint autem laudantium. Iste exercitationem quam labore dolore, ducimus aliquid?
+                        <br><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, eos! Ut ducimus placeat, illo eaque officiis nemo accusantium itaque provident quibusdam assumenda inventore vel rerum expedita aperiam excepturi odio dolor hic. Dignissimos voluptas ipsam incidunt eaque consectetur blanditiis quis, eos quas at magni nostrum, cupiditate est, ab iste pariatur iusto veniam minus architecto? Saepe, cum blanditiis harum fugit reiciendis facilis autem beatae in delectus eius temporibus inventore quia voluptatum quibusdam ea fuga unde distinctio molestias quasi qui sunt voluptate expedita minima enim. Dolorem consequuntur eveniet nobis autem! Commodi quisquam eligendi dignissimos ducimus, officiis ullam consequuntur! Voluptates nobis maiores rem asperiores?
+
+                    </p>
+                    <a href="#">Read Next</a>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- Footer -->
+        <footer>
+            <div class="footer-col">
+                <h3>Top Products</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+                <li>Marketing Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <li>Jobs</li>
+                <li>Brand Assets</li>
+                <li>Investors Relations</li>
+                <li>Terms of Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Features</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+                <li>Marketing Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Resources</h3>
+                <li>Guides</li>
+                <li>Research</li>
+                <li>Experts</li>
+                <li>Marketing Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>You can trust us.we only send our offers</p>
+                <div class="subscribe">
+                    <input type="text" placeholder="Your Email Address">
+                    <a href="#" class="yellow">SUBSCRIBE</a>
+                </div>     
+            </div>
+
+            <div class="copyright">
+                <p>Copyright @2021 All rights reserved | This template is made by founder</p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+        </footer>
+
+
+        <script>
+
+            // Navaigation Bar
+            $('#menu-btn').click(function(){
+                $('nav .navigation ul').addClass('active')
+            });
+            $('#menu-close').click(function(){
+                $('nav .navigation ul').removeClass('active')
+            });
+        </script>
+
+
+</body>
+
+</html>

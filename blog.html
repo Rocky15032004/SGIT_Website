@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SGVIT</title>
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+
+        <!-- Navigation -->
+        <nav>
+            <img src="image/logo.PNG" alt="">
+            <div class="navigation">
+                <ul>
+                    <i id="menu-close" class="fas fa-times"></i>
+                    <li><a href ="#">Home</a></li>
+                    <li><a href ="about.html">About</a></li>
+                    <li><a class="active" href ="blog.html">Blog</a></li>
+                    <li><a href ="course.html">Courses</a></li>
+                    <li><a href ="contact.html">Contact</a></li>
+                </ul>
+                <img id="menu-btn" src="image/menu.png" alt="">
+            </div>
+        </nav>
+        <!-- Home -->
+        <section id="about-home">
+            <h1>Blog/</h1>
+        </section>
+
+        <section id="blog-container">
+            <div class="blogs">
+                <div class="post">
+                    <img src="image/b1.jpg" alt="">
+                    <h3>Learn Development In the Easiest Way</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas nihil provident consequatur! Eum quasi cum hic animi. Quos illo ut animi, aspernatur saepe expedita et, non aliquam minus exercitationem repellat beatae repudiandae tenetur perferendis ipsam quasi atque accusantium maiores! Atque culpa quaerat quidem explicabo cum, facilis repudiandae impedit. Aspernatur, expedita!
+                    </p>
+                    <a href="post1.html">Read More</a>
+                </div>
+                <div class="post">
+                    <img src="image/b2.jpg" alt="">
+                    <h3>Learn Development In the Easiest Way</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas nihil provident consequatur! Eum quasi cum hic animi. Quos illo ut animi, aspernatur saepe expedita et, non aliquam minus exercitationem repellat beatae repudiandae tenetur perferendis ipsam quasi atque accusantium maiores! Atque culpa quaerat quidem explicabo cum, facilis repudiandae impedit. Aspernatur, expedita!
+                    </p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="post">
+                    <img src="image/b3.jpg" alt="">
+                    <h3>Learn Development In the Easiest Way</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas nihil provident consequatur! Eum quasi cum hic animi. Quos illo ut animi, aspernatur saepe expedita et, non aliquam minus exercitationem repellat beatae repudiandae tenetur perferendis ipsam quasi atque accusantium maiores! Atque culpa quaerat quidem explicabo cum, facilis repudiandae impedit. Aspernatur, expedita!
+                    </p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="post">
+                    <img src="image/b4.png" alt="">
+                    <h3>Learn Development In the Easiest Way</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas nihil provident consequatur! Eum quasi cum hic animi. Quos illo ut animi, aspernatur saepe expedita et, non aliquam minus exercitationem repellat beatae repudiandae tenetur perferendis ipsam quasi atque accusantium maiores! Atque culpa quaerat quidem explicabo cum, facilis repudiandae impedit. Aspernatur, expedita!
+                    </p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="cate">
+                <h2>Categories</h2>
+                <hr>
+                <a href="#">Computer Science</a>
+                <hr>
+                <a href="#">Information Science</a>
+                <hr>
+                <a href="#">Electronics and Communication</a>
+                <hr>
+                <a href="#">Artificial Intelligence</a>
+                <hr>
+                <a href="#">Electrical & Electronics</a>
+                <hr>
+                <a href="#">Mechanical</a>
+                <hr>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-col">
+                <h3>Top Products</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+                <li>Marketing Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <li>Jobs</li>
+                <li>Brand Assets</li>
+                <li>Investors Relations</li>
+                <li>Terms of Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Features</h3>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+                <li>Marketing Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Resources</h3>
+                <li>Guides</li>
+                <li>Research</li>
+                <li>Experts</li>
+                <li>Marketing Service</li>
+            </div>
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>You can trust us.we only send our offers</p>
+                <div class="subscribe">
+                    <input type="text" placeholder="Your Email Address">
+                    <a href="#" class="yellow">SUBSCRIBE</a>
+                </div>     
+            </div>
+
+            <div class="copyright">
+                <p>Copyright @2021 All rights reserved | This template is made by founder</p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+        </footer>
+
+
+        <script>
+
+            // Navaigation Bar
+            $('#menu-btn').click(function(){
+                $('nav .navigation ul').addClass('active')
+            });
+            $('#menu-close').click(function(){
+                $('nav .navigation ul').removeClass('active')
+            });
+        </script>
+
+
+</body>
+
+</html>
